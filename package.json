@@ -1,7 +1,7 @@
 {
     "name": "framework7-vue-single-view",
     "private": true,
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "framework7-vue-single-view",
     "repository": "",
     "license": "UNLICENSED",
@@ -23,7 +23,10 @@
             "cordova-plugin-whitelist": {},
             "cordova-plugin-statusbar": {},
             "monaca-plugin-monaca-core": {}
-        }
+        },
+        "platforms": [
+            "ios"
+        ]
     },
     "browserslist": [
         "Android >= 7",
@@ -35,13 +38,13 @@
     ],
     "dependencies": {
         "cordova-plugin-splashscreen": "6.0.0",
-        "cordova-plugin-whitelist": "1.3.5",
         "cordova-plugin-statusbar": "2.4.3",
-        "monaca-plugin-monaca-core": "3.3.1",
+        "cordova-plugin-whitelist": "1.3.5",
         "dom7": "^2.1.5",
         "framework7": "^5.7.11",
         "framework7-icons": "^3.0.1",
         "framework7-vue": "^5.7.11",
+        "monaca-plugin-monaca-core": "3.3.1",
         "template7": "^1.4.2",
         "vue": "^2.6.12"
     },
@@ -55,6 +58,7 @@
         "chalk": "^4.1.0",
         "copy-webpack-plugin": "^6.1.0",
         "cordova": "^10.0.0",
+        "cordova-ios": "^7.0.1",
         "cpy-cli": "^3.1.1",
         "cross-env": "^7.0.2",
         "css-loader": "^4.2.2",
